@@ -31,7 +31,7 @@ public class WordMatchGame {
         Scanner k = new Scanner(System.in);
         System.out.print("Enter Secret Word: ");
         String secret = k.nextLine();         
-        for (int i = 0; i < 30; i++){             
+        for (int i = 0; i < 60; i++){             
             System.out.print("\n");         
         }         
         String g = "";         
