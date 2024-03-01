@@ -42,7 +42,7 @@ public class WordMatchGame{
         while (points != maxPoints){
             g = k.nextLine();             
             points = game.scoreGuess(g);             
-            System.out.println(points);             
+            System.out.println("Points: " + points);             
             if (points != maxPoints)                 
                 System.out.println("Take another guess: ");
         }         
