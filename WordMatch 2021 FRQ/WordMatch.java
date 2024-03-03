@@ -64,6 +64,8 @@
                             test.findBetterGuess("ss", "pp") + "\t" + test.isCorrect("ss", test.findBetterGuess("ss", "pp")));
         System.out.println("\n" + "Guess: [sip , mis] should return sip and your code returns: " + 
                             test.findBetterGuess("sip", "mis") + "\t" + test.isCorrect("sip", test.findBetterGuess("sip", "mis")));
+        System.out.println("\n" + "Guess: [mis , sip] should return sip and your code returns: " + 
+                            test.findBetterGuess("sip", "mis") + "\t" + test.isCorrect("sip", test.findBetterGuess("mis", "sip")));
         System.out.println("\n" + "Guess: [missi , iss] should return missi and your code returns: " + 
                             test.findBetterGuess("missi", "iss") + "\t" + test.isCorrect("missi", test.findBetterGuess("missi", "iss")));
                      
