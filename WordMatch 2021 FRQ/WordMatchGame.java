@@ -31,7 +31,7 @@ public class WordMatchGame{
         Scanner k = new Scanner(System.in);
         System.out.print("Enter Secret Word: ");
         String secret = k.nextLine();         
-        for (int i = 0; i < 60; i++){             
+        for (int i = 0; i < 60; i++){     //adds space between the secret word and the first guess        
             System.out.print("\n");         
         }         
         String g = "";         
@@ -46,6 +46,6 @@ public class WordMatchGame{
             if (points != maxPoints)                 
                 System.out.println("Take another guess: ");
         }         
-        System.out.print("Congrats you win!!!!!");     
+        System.out.print("Congrats you win!");     
     }
 }
